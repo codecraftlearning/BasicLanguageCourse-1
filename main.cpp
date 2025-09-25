@@ -10,3 +10,7 @@ int main(int numberOfArgs, char* argsValues[]) {
         std::cout << sum;
     }
 }
+
+
+// g++ ./main.cpp
+// ./a args...

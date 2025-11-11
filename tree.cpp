@@ -78,17 +78,15 @@ void inorder(Node* root, bool isRepresentation) {
     inorder(root->right, isRepresentation);
 }
 
-void preorder(Node* root, bool isRepresentation) {
+void preorder(Node* root) {
     if (root == nullptr) {
-        if (isRepresentation) {
-            cout << -1 << " ";
-        }
+       
         return;
     }
 
     cout << root->data << " ";
-    preorder(root->left, isRepresentation);
-    preorder(root->right, isRepresentation);
+    preorder(root->left);
+    preorder(root->right);
 }
 
 void postorder(Node* root, bool isRepresentation) {

@@ -45,6 +45,7 @@ void bucketSort(int arr[], int size)
             max = arr[i];
         }
     }
+
     int bucketcount = (max - min) / bucketsize + 1;
     vector<vector<int>> buckets(bucketcount);
     for (int i = 0; i < size; i++)

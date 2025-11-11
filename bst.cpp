@@ -158,3 +158,7 @@ int main(int size, char *args[])
 
     return 0;
 }
+
+//            10
+ //      8             14
+ //   7    9       12      15

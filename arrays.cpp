@@ -4,14 +4,37 @@
 using namespace std;
 
 int main() {
- 
-    //array -> collection of similar values in a sequence
-    // [ 5, 2, 7, 1 ]
+    int arr[100], revArr[100];
+    int n, i;
 
-    double arr[] = {1.0,2.2,3.3,4.4,5.6,6.3,7,8,9,0};
+    cout << "Enter the number of elements: ";
+    cin >> n;
 
-    // cout << arr << "->" << *arr << endl;
+    cout << "Enter " << n << " elements: ";
+    for (i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
 
-    cout << arr[0] <<" "<< arr[1] << endl;
-    cout << (arr + 0) << " " << (arr + 1) << endl;
-}
+    for (i = 0; i < n; i++) {
+        arr[i]= arr[i] * 2;
+    }
+
+  
+    cout << "Array after doubling every element: ";
+    for (i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+
+    for (i = 0; i < n; i++) {
+        revArr[i] = arr[n - i - 1];
+    }
+
+    cout << "Reversed array: ";
+    for (i = 0; i < n; i++) {
+        cout << revArr[i] << " ";
+    }
+    cout << endl;
+
+}   

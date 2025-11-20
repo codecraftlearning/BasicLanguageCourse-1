@@ -1,3 +1,14 @@
+/*
+Homework: 
+
+1. Count frequency of each element (without using maps).
+
+2. Check if an array is sorted.
+
+3. Find the second largest element without sorting.
+
+*/
+
 #include <iostream>
 using namespace std;
 

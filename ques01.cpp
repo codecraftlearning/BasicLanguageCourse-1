@@ -17,9 +17,14 @@ int main()
     }
 
     int minval= arr[0];
+<<<<<<< Updated upstream
     int maxval= arr[0];
     for(int i=1; i<n; i++){
         
+=======
+     int maxval= arr[0];
+    for(int i=1; i<n; i++){
+>>>>>>> Stashed changes
         if(arr[i]< minval){
             minval= arr[i];
         }
@@ -29,4 +34,8 @@ int main()
     }
     cout<<"Max value:"<< maxval;
     cout<<"Min value:"<<minval;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

@@ -17,8 +17,9 @@ int main()
     }
 
     int minval= arr[0];
-     int maxval= arr[0];
+    int maxval= arr[0];
     for(int i=1; i<n; i++){
+        
         if(arr[i]< minval){
             minval= arr[i];
         }

@@ -83,7 +83,6 @@ Node* insertAt(Node* head, int index, int value) {
     return head;
 }
 
-
 //linked traversal
 void printAllElement(Node* head) {
     Node* current = head;
@@ -95,11 +94,9 @@ void printAllElement(Node* head) {
     cout << endl;
 }
 
-
 //delete from beginning
 //delete from end
 //delete from specific index
-
 
 int main() {
     Node* head = createNewNode(10);

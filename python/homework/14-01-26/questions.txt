@@ -1,0 +1,90 @@
+🔹 Problem 1: Smart Billing Calculator
+
+        Problem Statement:
+            A shop gives different discounts based on the total bill amount.
+
+        Input:
+
+            Customer name
+
+            Total bill amount
+
+        Rules:
+
+            If bill ≥ 5000 → 20% discount
+
+            If bill ≥ 3000 and < 5000 → 10% discount
+
+            If bill ≥ 1000 and < 3000 → 5% discount
+
+            If bill < 1000 → No discount
+
+        Output:
+
+            Customer name
+
+            Original bill amount
+
+            Discount amount
+
+            Final payable amount
+
+
+🔹 Problem 2: Simple Calculator with Menu
+
+        Problem Statement:
+            Create a calculator that performs one operation based on user choice.
+
+        Input:
+
+            Two numbers
+
+            Choice (1–Addition, 2–Subtraction, 3–Multiplication, 4–Division)
+
+        Rules:
+
+            Use switch statement
+
+            Division by zero must be handled using if-else
+
+        Output:
+
+            The selected operation
+
+            The result
+
+        Constraints:
+
+            If an invalid choice is entered, show "Invalid operation selected"
+
+
+🔹 Problem 3: Employee Bonus Eligibility System
+
+        Problem Statement:
+            A company decides bonus eligibility based on salary and performance rating.
+
+        Input:
+
+            Employee name
+
+            Salary
+
+            Performance rating (1 to 5)
+
+        Rules:
+
+            If rating ≥ 4 and salary < 50000 → Bonus = 15% of salary
+
+            If rating ≥ 3 and salary ≥ 50000 → Bonus = 10% of salary
+
+            If rating < 3 → No bonus
+
+        Output:
+
+            Employee name
+
+            Salary
+
+            Performance rating
+
+            Bonus amount

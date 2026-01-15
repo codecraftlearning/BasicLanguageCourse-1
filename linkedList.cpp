@@ -1,5 +1,4 @@
 
-
 #include <iostream>
 
 using namespace std;
@@ -7,19 +6,20 @@ using namespace std;
 struct Node
 {
     int data;
-    Node* next = nullptr;
+    Node *next = nullptr;
 };
 
-
-Node* createNewNode(int value) {
-    Node* newNode = new Node();
+Node *createNewNode(int value)
+{
+    Node *newNode = new Node();
     newNode->data = value;
     return newNode;
-}   
+}
 
-int size(Node* head) {
+int size(Node *head)
+{
     int count = 0;
-    Node* current = head;
+    Node *current = head;
     while (current != nullptr)
     {
         count++;
@@ -29,8 +29,9 @@ int size(Node* head) {
     return count;
 }
 
-Node* findLastNode(Node* head) {
-    Node* current = head;
+Node *findLastNode(Node *head)
+{
+    Node *current = head;
     while (current->next != nullptr)
     {
         current = current->next;
@@ -39,43 +40,50 @@ Node* findLastNode(Node* head) {
     return current;
 }
 
-void insertAtEnd(Node* head, int value) {
-    Node* newNode = createNewNode(value);
-    if (head == nullptr) {
+void insertAtEnd(Node *head, int value)
+{
+    Node *newNode = createNewNode(value);
+    if (head == nullptr)
+    {
         return;
     }
 
-    Node* lastNode = findLastNode(head);
+    Node *lastNode = findLastNode(head);
     lastNode->next = newNode;
 }
 
+Node *insertAt(Node *head, int index, int value)
+{
+    Node *newNode = createNewNode(value);
 
-Node* insertAt(Node* head, int index, int value) {
-    Node* newNode = createNewNode(value);
-    
-    if (head == nullptr) {
+    if (head == nullptr)
+    {
         return newNode;
     }
 
-    if (index <= 0) {
+    if (index <= 0)
+    {
         newNode->next = head;
         return newNode;
     }
 
     int count = size(head);
 
-    if (index >= count) {
-        Node* lastNode = findLastNode(head);
+    if (index >= count)
+    {
+        Node *lastNode = findLastNode(head);
         lastNode->next = newNode;
         return head;
     }
 
-    Node* current = head;
-    for (int i = 0; i<index; i++) {
+    Node *current = head;
+    for (int i = 0; i < index; i++)
+    {
         current = current->next;
     }
 
-    if (current != nullptr) {
+    if (current != nullptr)
+    {
         newNode->next = current->next;
         current->next = newNode;
     }
@@ -83,10 +91,10 @@ Node* insertAt(Node* head, int index, int value) {
     return head;
 }
 
-
-//linked traversal
-void printAllElement(Node* head) {
-    Node* current = head;
+// linked traversal
+void printAllElement(Node *head)
+{
+    Node *current = head;
     while (current != nullptr)
     {
         cout << current->data << " ";
@@ -95,21 +103,19 @@ void printAllElement(Node* head) {
     cout << endl;
 }
 
+// delete from beginning
+// delete from end
+// delete from specific index
 
-//delete from beginning
-//delete from end
-//delete from specific index
-
-
-int main() {
-    Node* head = createNewNode(10);
+int main()
+{
+    Node *head = createNewNode(10);
     insertAtEnd(head, 20);
     insertAtEnd(head, 30);
     insertAtEnd(head, 40);
     insertAtEnd(head, 50);
     head = insertAt(head, 1, 25);
     head = insertAt(head, 0, 0);
-
 
     printAllElement(head);
 }

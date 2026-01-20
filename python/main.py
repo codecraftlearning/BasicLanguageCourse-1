@@ -19,13 +19,22 @@
 temperature = input("Whats the temperature today: ")
 temperature = int(temperature)
 
-if temperature > 30:
-    print("Hot")
-elif temperature > 24:
-    print("warm")
-elif temperature > 16:
-    print("nice")
-else:
-    print("cold")
+# if temperature > 30:
+#     print("Hot")
+# elif temperature > 24:
+#     print("warm")
+# elif temperature > 16:
+#     print("nice")
+# else:
+#     print("cold")
+
+
+match temperature:
+    case n if n > 30:
+        print("hot")
+    case 40:
+        print("very hot")
+    case 10:
+        print("cold")
 
 print("done")

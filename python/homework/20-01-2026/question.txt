@@ -1,0 +1,6 @@
+
+Task 1). Go through all the methods availabe in a list and make a demo of every method, and also make notes of it...
+
+Task 2). How tuppe is different from list, Demonstrate. Also why / when should we choose tuppel over list.
+
+Task 3). How do Print or Len function analyze what is the obejct and how to print it, for eg. when provided string, its behaves deiiferently and vise-versa...

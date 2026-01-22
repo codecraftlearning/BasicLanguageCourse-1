@@ -1,6 +1,38 @@
 
 Task 1). Go through all the methods availabe in a list and make a demo of every method, and also make notes of it...
 
-Task 2). How tuppe is different from list, Demonstrate. Also why / when should we choose tuppel over list.
+Task 2). How tuple is different from list, Demonstrate. Also why / when should we choose tuppel over list.
+
+List is mutable (can change).
+Tuple is immutable (cannot change).
+
+List allows add, remove, update.
+Tuple does not allow modification.
+
+List is slower than tuple.
+Tuple is faster and safer.
+
+List has many methods.
+Tuple has only count() and index().
+
+When to use Tuple:
+1)When data should not change
+2)For fixed values (DOB, coordinates)
+3)When used as dictionary keys
+4)For better performance
+
+When to use List:
+1)When data keeps changing
+2)When adding or removing elements
 
 Task 3). How do Print or Len function analyze what is the obejct and how to print it, for eg. when provided string, its behaves deiiferently and vise-versa...
+
+Print calls a special method of the object defined as __str__(), 
+which defines how the object should be converted into a readable string for display. Since, strings, lists etc have
+their own objects defined and implementations, they are printed in different format, such as characters for strings
+in quotes, or lists as typical 1 row matrices etc.
+
+Len function calls another special method named __len__(), which tells python how to calculate the length of a 
+particular object. For a string, it returns the no. of characters, while for lists and tuples, it returns the no. 
+of elements stored in them.
+These methods rely on object defined by the user itself. The OOPs, 

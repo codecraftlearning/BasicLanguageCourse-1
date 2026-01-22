@@ -1,0 +1,6 @@
+use for /while loop
+and write 5 different and advanced patter printing code
+in separate files
+
+
+do not use gpt or any other ai

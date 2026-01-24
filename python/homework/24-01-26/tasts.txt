@@ -1,0 +1,11 @@
+
+1). research and list down all the applications of a set
+
+2). explain the internal workin of a set and a dictionary
+
+3). cout the frequency  of every character in a provided string (use dictionary)
+    eg:  input -> "my name is khan",  output ->  m=2, y=1, n=2, a=2, e=1, i=1, s=1, k=1, h=1
+
+4). find out if the s1 as string is a substring of s2 or not
+    eg: input1 -> "abcdefghij"  input2 -> "efgh" output -> true
+    dont use (input2 in input1) as provided in python

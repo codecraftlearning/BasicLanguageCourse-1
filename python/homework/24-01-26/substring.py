@@ -1,5 +1,5 @@
 s1 = "abcdefghij"
-s2 = "efgh"
+s2 = "esgh"
 
 m = len(s1)
 n = len(s2)

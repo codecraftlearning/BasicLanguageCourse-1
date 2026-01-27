@@ -2,6 +2,13 @@
 1). research and list down all the applications of a set
 
 2). explain the internal workin of a set and a dictionary
+    In Python, both set and dictionary are implemented using a hash table, which allows fast searching, insertion, 
+    and deletion in O(1) average time. When an element is added to a set, Python calculates a hash value of the 
+    element and stores it at a position based on that hash. In a dictionary, the hash is calculated only for the
+     key, and the key–value pair is stored at the corresponding index. When an element or key is searched, Python 
+     again computes its hash and directly accesses the memory location, making lookup very fast. If two items get 
+     the same hash value, Python resolves it using open addressing by finding another empty slot. Also, set 
+     elements and dictionary keys must be immutable so their hash value does not change after being stored.
 
 3). cout the frequency  of every character in a provided string (use dictionary)
     eg:  input -> "my name is khan",  output ->  m=2, y=1, n=2, a=2, e=1, i=1, s=1, k=1, h=1

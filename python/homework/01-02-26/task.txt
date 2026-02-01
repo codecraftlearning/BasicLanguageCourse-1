@@ -1,0 +1,13 @@
+1). Explore about the BUIT IN FUNCTIONS
+
+sum
+
+max, min
+
+sorted
+
+enumerate
+
+zip
+
+any, all

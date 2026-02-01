@@ -1,0 +1,86 @@
+16. Modules
+    Creating custom modules
+
+17. Packages
+
+    Package structure
+
+    __init__.py
+
+    Installing packages with pip
+
+    Virtual environments (basic) // can be
+
+18. Exception Handling
+
+    Errors vs exceptions
+
+    try-except
+
+    else
+
+    finally
+
+    Multiple exceptions
+
+    Custom exceptions
+
+19. File Handling
+
+    File modes
+
+    Reading files
+
+    Writing files
+
+    Appending files
+
+    File closing
+
+    with statement
+
+20. Object-Oriented Programming (Basics)
+
+    Classes
+
+    Objects
+
+    __init__
+
+    Instance variables
+
+    Methods
+
+    self
+
+21. OOP Concepts
+
+    Encapsulation
+
+    Inheritance
+
+    Polymorphism
+
+    Abstraction (intro level)
+
+22. Iterators & Generators
+
+    Iterators
+
+    iter() and next()
+
+    Generators
+
+    yield
+
+23. Python Standard Libraries (Intro)
+
+    math
+
+    random
+
+    datetime
+
+    os
+
+    sys

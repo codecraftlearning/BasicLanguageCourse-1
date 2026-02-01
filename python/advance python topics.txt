@@ -1,15 +1,21 @@
 16. Modules
     Creating custom modules
 
-17. Packages
 
-    Package structure
+19. File Handling
 
-    __init__.py
+    File modes
 
-    Installing packages with pip
+    Reading files
 
-    Virtual environments (basic) // can be
+    Writing files
+
+    Appending files
+
+    File closing
+
+    with statement
+    
 
 18. Exception Handling
 
@@ -25,19 +31,16 @@
 
     Custom exceptions
 
-19. File Handling
+21. OOP Concepts
 
-    File modes
+    Encapsulation
 
-    Reading files
+    Inheritance
 
-    Writing files
+    Polymorphism
 
-    Appending files
+    Abstraction (intro level)
 
-    File closing
-
-    with statement
 
 20. Object-Oriented Programming (Basics)
 
@@ -53,15 +56,6 @@
 
     self
 
-21. OOP Concepts
-
-    Encapsulation
-
-    Inheritance
-
-    Polymorphism
-
-    Abstraction (intro level)
 
 22. Iterators & Generators
 
@@ -84,3 +78,14 @@
     os
 
     sys
+
+
+17. Packages
+
+    Package structure
+
+    __init__.py
+
+    Installing packages with pip
+
+    Virtual environments (basic) // can be

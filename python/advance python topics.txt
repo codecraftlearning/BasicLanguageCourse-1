@@ -1,16 +1,3 @@
-18. Exception Handling
-
-    Errors vs exceptions
-
-    try-except
-
-    else
-
-    finally
-
-    Multiple exceptions
-
-    Custom exceptions
 
 21. OOP Concepts
 

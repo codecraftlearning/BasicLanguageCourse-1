@@ -1,40 +1,4 @@
 
-21. OOP Concepts
-
-    Encapsulation
-
-    Inheritance
-
-    Polymorphism
-
-    Abstraction (intro level)
-
-
-20. Object-Oriented Programming (Basics)
-
-    Classes
-
-    Objects
-
-    __init__
-
-    Instance variables
-
-    Methods
-
-    self
-
-
-22. Iterators & Generators
-
-    Iterators
-
-    iter() and next()
-
-    Generators
-
-    yield
-
 23. Python Standard Libraries (Intro)
 
     math
